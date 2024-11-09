@@ -75,9 +75,18 @@ header ul li a:hover{
     margin-bottom: 5px;
     margin-left: 100px;
 }
+#ig_icon{
+    width:19px;
+    height: 19px;
+    margin-left: 2px;
+}
 .contact img{
     margin-right: 5px;
     left: 45%;
+    width: 22px; /* 統一寬度 */
+    height: 22px; /* 統一高度 */
+    vertical-align: middle; /* 確保圖片和文字基線對齊 */
+    padding: 0;
 }
 .contact a{
     text-decoration: none;
@@ -90,7 +99,7 @@ header ul li a:hover{
 .about{
     background-color: rgb(255, 255, 255);
     color:rgb(37, 10, 10);
-    height:150vh;
+    height:170vh;
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -125,23 +134,29 @@ header ul li a:hover{
     margin-top: 30px;
     padding: 20px;
     font-size: 60px;
+    text-align: center;
 }
 .portfolio h2{
     margin-left: 300px;
+    font-size: 40px;
 }
 .portfolio_content{
     display: flex;
     justify-items: left;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     margin-left: 300px;
 }
 .portfolio_content p{
     line-height: 2;
+    margin-left: 120px;
     text-align: center;
     max-width: 500px; /* 設定容器的最大寬度 */
     word-wrap: break-word; /* 讓過長的單詞換行 */
+    text-align: left;
+    background-color: rgb(81, 165, 238,0.3);
+    padding:20px;
+    box-shadow: 4px 4px 10px rgba(3, 3, 3, 0.3); /* 陰影效果 */
 }
 .portfolio_content video{
     margin-right: 30px;
