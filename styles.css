@@ -11,7 +11,7 @@
 }
 
 header{
-    background-color: #92dcff;
+    background-color: rgba(66, 187, 243, 0.6);
     height: 80px;
     width: 100%;
     text-align: center;
@@ -34,6 +34,7 @@ header ul li a{
 }
 header ul li a:hover{
     text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .index{
     background-color: rgb(255, 255, 255);
@@ -51,12 +52,28 @@ header ul li a:hover{
     margin-top: 120px;
     padding: 20px;
     font-size: 50px;
+    
+}
+.index h2{ 
+    margin-top: 10px;
+    text-align: center;
+}
+/* 模糊效果的 overlay */
+.overlay{
+    width: 20%; 
+    height: 24%; 
+    background: rgba(255, 255, 255, 0.1); /* 半透明背景 */
+    backdrop-filter: blur(10px); /* 模糊效果 */
+    border-radius: 20px; /* 圓角效果 */
+    border: 1px solid rgba(71, 166, 245, 0.5); /* 外框色透明度 */
+    box-shadow: 4px 4px 10px rgba(3, 3, 3, 0.3); /* 陰影效果 */
 }
 .contact{
     display: flex;
     align-items: center;
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 100px;
 }
 .contact img{
     margin-right: 5px;
@@ -100,7 +117,7 @@ header ul li a:hover{
     color:rgb(37, 10, 10);
     display:flex;
     flex-direction:column;
-    align-items: center; 
+    /* align-items: center;  */
     background-color: rgba(49, 140, 143, 0.7);
 }
 .portfolio h1{
@@ -109,12 +126,16 @@ header ul li a:hover{
     padding: 20px;
     font-size: 60px;
 }
+.portfolio h2{
+    margin-left: 300px;
+}
 .portfolio_content{
     display: flex;
     justify-items: left;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 300px;
 }
 .portfolio_content p{
     line-height: 2;
@@ -126,3 +147,8 @@ header ul li a:hover{
     margin-right: 30px;
     margin-top: 20px;
 }
+.portfolio_content img{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
