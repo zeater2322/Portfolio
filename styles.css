@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hrline{
+    border: 0; /* 去掉預設邊框 */
+    height: 2px; /* 設定橫線的厚度 */
+    background-color: #f8f1f1; /* 設定顏色 */
+    width: 50%; /* 設定橫線的寬度 */
+ /* 使其居中顯示，並設定上下邊距 */
+}
+
+header{
+    background-color: #92dcff;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+header ul{
+    position: absolute;
+    left: 6vw;
+    top: 0;
+    line-height: 80px;
+}
+header ul li{
+    display: inline;
+    margin-right: 4vw;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgb(12, 15, 7);
+    font-size: 20px;
+}
+header ul li a:hover{
+    text-decoration: underline;
+}
+.index{
+    background-color: rgb(255, 255, 255);
+    color:rgb(37, 10, 10);
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-image: url('assest/door.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.index h1{
+    margin-bottom: 140px;
+    margin-top: 120px;
+    padding: 20px;
+    font-size: 50px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.contact img{
+    margin-right: 5px;
+    left: 45%;
+}
+.contact a{
+    text-decoration: none;
+    color: rgb(37, 10, 10);
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: rgb(177, 255, 50);
+}
+.about{
+    background-color: rgb(255, 255, 255);
+    color:rgb(37, 10, 10);
+    height:150vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.about h1{
+    margin-bottom: 100px;
+    margin-top: 70px;
+    padding: 20px;
+    font-size: 60px;
+    color: rgb(254, 255, 254);
+}
+.about p{
+    font-size: 17px;
+    line-height: 2.5;
+    text-align: left;
+    max-width: 900px; /* 設定容器的最大寬度 */
+    word-wrap: break-word; /* 讓過長的單詞換行 */
+    color: rgb(254, 255, 254);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 黑色陰影，讓文字更清晰 */
+}
+.portfolio{
+    background-color: rgb(255, 255, 255);
+    color:rgb(37, 10, 10);
+    display:flex;
+    flex-direction:column;
+    align-items: center; 
+    background-color: rgba(49, 140, 143, 0.7);
+}
+.portfolio h1{
+    margin-bottom: 150px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 60px;
+}
+.portfolio_content{
+    display: flex;
+    justify-items: left;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.portfolio_content p{
+    line-height: 2;
+    text-align: center;
+    max-width: 500px; /* 設定容器的最大寬度 */
+    word-wrap: break-word; /* 讓過長的單詞換行 */
+}
+.portfolio_content video{
+    margin-right: 30px;
+    margin-top: 20px;
+}

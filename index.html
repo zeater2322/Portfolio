@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">關於我</a></li>
+                <li><a href="#">作品集</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <section class="index">
+            <h1>首頁</h1>
+            <h2>黃建嘉</h2><br>
+            <h2>HUANG CHIEN-CHIA</h2><br>
+            <div class="contact">
+                <img src="assest/email.svg" alt="email" height="25px">
+                <p>a3221464817@gmail.com</p>
+            </div>
+            <div class="contact">
+                <img src="assest/instagram.svg" alt="ig" width="20px">
+                <p><a href="https://www.instagram.com/jeff_13033/">jeff_13033</a></p>
+            </div>
+            <div class="contact">
+                <img src="assest/line.svg" alt="line" height="25px">
+                <p>wass13033</p>
+            </div>
+            <div class="contact">
+                <img src="assest/discord.svg" alt="discord" width="25px">
+                <p>Zeater</p>
+            </div>
+        </section>
+        <hr class="hrline">   
+        <section class="about">
+            <h1>關於我</h1>
+            <p>學歷 : </p>
+            <P>東吳大學資訊管理學系(畢業於2024)</P>
+            <p>經歷 : </p>
+            <P>艾思程式教育股份有限公司 - 研發實習生(2個月)</P>
+            <p>擅長語言/工具 :</p>
+            <P> HTML, CSS, JAVASCRIPT, JAVA, PYTHON, GIT, Ngrok, SQL</P>
+            <br><br><br><br><br><br><br>
+            <p>【關於我】<br>
+                我是一個認真負責、熱愛學習的人。被交代的工作絕對會全力以赴,並且在團隊中保持尊重和配合的態度。對於技術的成長有很高的期望和熱情,可以根據作業的規格,並透過自學，繳交出跟範例一模一樣的成品,具有解決問題的毅力和自信。平常很愛以程式思維思考問題，每天也會透過社群平台接觸到許多資訊相關文章，了解更多工具及業界心得。 
+                <br>【求學經歷】<br>
+                大學期間,我積極參與多門程式設計相關課程,學習Java、Python、Linux等工具,對深度學習、大數據分析、資料科學等領域有所涉獵。在敏捷開發課程中,我實際應用Scrum框架,利用bubble.io開發ubereats系統和記帳工具,加深了我對系統規劃和資料庫的理解,也運用看板工具提高團隊溝通效率。在一些課程的團體中也做出了許多貢獻，專題期間參與商業競賽,深化了對服務科學工具的應用理解。這些經歷不僅提升了專業技能,也培養了團隊合作和高效溝通的能力,讓我體會到解決問題的方法比工具本身更為重要。             
+                <br>【興趣】<br>      
+                我對自我提升充滿熱忱,對日本文化有濃厚興趣,自學日語已能流利閱讀和交談。程式設計也是我的熱門興趣,課餘時間也會自學程式以及相關工具ngrok、docker等等，並且做side project當練習。這些興趣促使我不斷學習,追求進步。</p>
+        </section>
+        <section class="portfolio">
+            <h1>作品集</h1>
+            <h2>籃球影像分析</h2>
+            <div class="portfolio_content">
+                <video src= "assest/test_short.mp4" height="320" controls></video>
+                <p>標註資料、訓練模型、特徵提取以及分群。
+                    針對籃球比賽影片偵測籃球、籃框以及籃網，           
+                    接著對籃球員根據hsv提取特徵進行分隊             
+                    並且追蹤前後幀兩隊球員分別是上一把的紅隊或是藍隊            
+                    防止每幀不統一           
+                    最後搭配tkinter製作介面與播放相關按鈕與右邊顯示功能<br>
+                    #python、tkinter <br>
+                <a href="https://github.com/zeater2322/Team_division">前往github</a>     
+            </div>      
+            <h2>物件偵測 yolov8</h2>
+            <div class="portfolio_content">
+                <video src= "assest/yolov8.mp4" height="320" controls></video>
+                <p>利用yolov8針對圖片做物件偵測<br>
+                    顯示物件名稱以及準確率<br>
+                    #python、html、css、javascript<br>
+                <a href="https://github.com/zeater2322/yolov8-ObjectDetect_PIC">前往github</a>     
+            </div>  
+            <h2>文字偵測paddle-ocr</h2>
+            <div class="portfolio_content">
+                <video src= "assest/Text Detection.mp4" height="320" controls></video>
+                <p>使用paddle ocr語言模型針對多種語言文本做偵測<br>
+                    使用flask在網頁上執行<br>
+                    #python、html、css、javascript<br>
+                <a href="https://zeater2322.github.io/TextsDetect/">觀看介面</a> <br>   
+                <a href="https://github.com/zeater2322/TextsDetect">前往github</a>     
+            </div>      
+        </section>
+    </main>
+    </body>
+</html>
