@@ -10,14 +10,14 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">首頁</a></li>
-                <li><a href="#">關於我</a></li>
-                <li><a href="#">作品集</a></li>
+                <li><a href="#index">首頁</a></li>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#portfolio">作品集</a></li>
             </ul>
         </nav>
     </header>    
     <main>
-        <section class="index">
+        <section class="index" id="index">
             <h1>首頁</h1>
             <div class="overlay">
                 <h2>黃建嘉</h2>
@@ -41,7 +41,7 @@
             </div>
         </section>
         <hr class="hrline">   
-        <section class="about">
+        <section class="about" id="about">
             <h1>關於我</h1>
             <p>學歷 : </p>
             <P>東吳大學資訊管理學系(畢業於2024)</P>
@@ -58,7 +58,7 @@
                 我對自我提升充滿熱忱,對日本文化有濃厚興趣,自學日語已能流利閱讀和交談。程式設計也是我的熱門興趣,課餘時間也會自學程式以及相關工具ngrok、docker等等，並且做side project當練習。這些興趣促使我不斷學習,追求進步。</p>
         </section>
         <hr class="hrline"> 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <h1>作品集</h1>
             <h2>籃球影像分析</h2>
             <div class="portfolio_content">
@@ -75,7 +75,7 @@
             <h2>物件偵測 yolov8</h2>
             <div class="portfolio_content">
                 <video src= "assest/yolov8.mp4" height="320" controls></video>
-                <p>利用yolov8針對圖片做物件偵測<br>
+                <p>利用yolov8針對圖片做物件偵測
                     顯示物件名稱以及準確率<br>
                     #python、html、css、javascript<br>
                 <a href="https://github.com/zeater2322/yolov8-ObjectDetect_PIC">前往github</a>     
@@ -96,8 +96,11 @@
                     使用python爬蟲並對資料進行分析，評論統整、文字預處理(包括自己查詢中文停用字、去除出現次數太低詞)、文字雲(自行尋找字體)、TFIDF表格、情緒分析圓餅圖。<br>
                 <a href="https://www.canva.com/design/DAF5T4e_kpk/NvvRRDFoA28Kf7s6LAq6Jg/edit">簡報</a> <br>   
                 <a href="https://github.com/zeater2322/DatascienceHW.git">前往github</a>     
-            </div>  
-        </section>
+            </div>
+            <footer>
+                <a href="https://pda.104.com.tw/profile/edit?vno=75rutpe93" class="button">更多資訊</a>    
+            </footer>    
+            </section>
     </main>
     </body>
 </html>

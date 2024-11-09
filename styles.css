@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 .hrline{
     border: 0; /* 去掉預設邊框 */
     height: 2px; /* 設定橫線的厚度 */
@@ -167,3 +170,21 @@ header ul li a:hover{
     margin-top: 20px;
 }
 
+footer{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+footer a:hover{
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
