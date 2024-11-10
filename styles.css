@@ -238,6 +238,9 @@ footer a:hover{
     }
 }
 @media (max-width: 655px) {
+    .index h2{
+        font-size: 120%;
+    }
     .contact{
         margin-left: 20%;
         font-size: 30%;
@@ -247,7 +250,10 @@ footer a:hover{
     }
 }
 @media (max-width: 470px) {
+    .overlay{
+        width: 65%;
+    }
     .about{
-        height: 220vh;
+        height: 240vh;
     }
 }
