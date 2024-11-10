@@ -188,3 +188,48 @@ footer a:hover{
     text-decoration: underline;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
+@media screen and (max-width: 768px){
+    .index{
+        background-position: center;
+    }
+    .overlay{
+        width: 50%; 
+        height: 24%; 
+        background: rgba(255, 255, 255, 0.1); /* 半透明背景 */
+        backdrop-filter: blur(10px); /* 模糊效果 */
+        border-radius: 20px; /* 圓角效果 */
+        border: 1px solid rgba(71, 166, 245, 0.5); /* 外框色透明度 */
+        box-shadow: 4px 4px 10px rgba(3, 3, 3, 0.3); /* 陰影效果 */
+    }
+    .about p{
+        font-size: 16px;
+        word-wrap: break-word; /* 讓過長的單詞換行 */
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    .portfolio h2{
+        margin-left: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .portfolio_content{
+        display: flex;
+        margin-left: 0;
+        flex-direction: column; 
+    }
+    .portfolio_content p{
+        padding: 20px;
+        margin-left: 0;
+        margin-top: 40px;
+        justify-items: center;
+        position: center;
+    }
+    .portfolio_content video{
+        margin-right: 0;     
+    }
+    .portfolio_content img{
+        margin-right: 0;
+    }
+
+}
