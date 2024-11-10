@@ -237,3 +237,17 @@ footer a:hover{
         
     }
 }
+@media (max-width: 655px) {
+    .contact{
+        margin-left: 20%;
+        font-size: 30%;
+    }
+    .about{
+        height: 200vh;
+    }
+}
+@media (max-width: 470px) {
+    .about{
+        height: 220vh;
+    }
+}
