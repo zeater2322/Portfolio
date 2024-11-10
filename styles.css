@@ -188,7 +188,7 @@ footer a:hover{
     text-decoration: underline;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
-@media screen and (max-width: 768px){
+@media (max-width: 1024px) {}
     .index{
         background-position: center;
     }
@@ -217,6 +217,7 @@ footer a:hover{
         display: flex;
         margin-left: 0;
         flex-direction: column; 
+        padding:20px;
     }
     .portfolio_content p{
         padding: 20px;
@@ -226,10 +227,14 @@ footer a:hover{
         position: center;
     }
     .portfolio_content video{
+        width: 80%;
         margin-right: 0;     
     }
     .portfolio_content img{
+        width: 80%;
+        height: 30%;
         margin-right: 0;
+        
     }
 
 }
